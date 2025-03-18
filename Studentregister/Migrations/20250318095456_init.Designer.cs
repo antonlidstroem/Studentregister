@@ -11,8 +11,8 @@ using Studentregister;
 namespace Studentregister.Migrations
 {
     [DbContext(typeof(StudentDbContext))]
-    [Migration("20250311133258_second")]
-    partial class second
+    [Migration("20250318095456_init")]
+    partial class init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
